@@ -50,7 +50,7 @@ function App() {
 
       <section className="content" id="overview">
         <header className="topbar"><div className="breadcrumbs"><span>Northstar</span><i>/</i><strong>Overview</strong></div><div className="top-actions"><button className="icon-button" aria-label="Notifications">♢<span className="notification-dot" /></button><button className="help-button">? <span>Help center</span></button></div></header>
-        <div className="page-heading"><div><p className="eyebrow">Thursday, September 3, 2026</p><h1>Good morning, team <span>✦</span></h1><p className="subtitle">Here’s what’s moving across your stack today.</p></div><button className={`deploy-button ${deployed ? 'success' : ''}`} onClick={deploy}>{deploying ? 'Deploying…' : deployed ? '✓ Deployed v2.4.2' : '＋ Deploy release'}</button></div>
+        <div className="page-heading"><div><p className="eyebrow">Thursday, September 3, 2026</p><h1>Good morning, preeti <span>✦</span></h1><p className="subtitle">Here’s what’s moving across your stack today.</p></div><button className={`deploy-button ${deployed ? 'success' : ''}`} onClick={deploy}>{deploying ? 'Deploying…' : deployed ? '✓ Deployed v2.4.2' : '＋ Deploy release'}</button></div>
 
         <div className="metrics">
           <article className="metric-card"><div className="metric-top"><span className="metric-label">Deploy frequency</span><span className="metric-icon coral-icon">↗</span></div><strong>18.4 <small>/ week</small></strong><p className="trend up">↗ 12.8% <span>vs last week</span></p></article>
